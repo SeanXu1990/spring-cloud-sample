@@ -29,12 +29,14 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 		
+		<!-- 如果最后打的是war包必须去除内置tomcat插件  -->
 		 <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-tomcat</artifactId>
                 <scope>provided</scope>
         </dependency>
 
+		<!-- 测试相关依赖 -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
